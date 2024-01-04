@@ -1,62 +1,68 @@
 import FontAwesome from '@expo/vector-icons/FontAwesome';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
-import { Pressable, StyleSheet } from 'react-native';
+import type { NativeStackScreenProps } from '@react-navigation/native-stack';
+import { StyleSheet, useColorScheme } from 'react-native';
 
-import One from '../screens/one';
-import Two from '../screens/two';
+import { RootStackParamList } from '.';
+import Colors from '../constants/Colors';
+import InspectScreen, { Params as InspectScreenParams } from '../screens/inspect';
+import OpenScreen, { Params as OpenScreenParams } from '../screens/open';
 
-const Tab = createBottomTabNavigator();
+export type TabScreensParamList = {
+    Open: OpenScreenParams;
+    Inspect: InspectScreenParams;
+};
+
+const Tab = createBottomTabNavigator<TabScreensParamList>();
 
 function TabBarIcon(props: {
-  name: React.ComponentProps<typeof FontAwesome>['name'];
-  color: string;
+    name: React.ComponentProps<typeof FontAwesome>['name'];
+    color: string;
 }) {
-  return <FontAwesome size={28} style={styles.tabBarIcon} {...props} />;
+    return <FontAwesome size={28} style={styles.tabBarIcon} {...props} />;
 }
 
-export default function TabLayout({ navigation }) {
-  return (
-    <Tab.Navigator
-      screenOptions={{
-        tabBarActiveTintColor: 'black',
-      }}>
-      <Tab.Screen
-        name="One"
-        component={One}
-        options={{
-          title: 'Tab One',
-          tabBarIcon: ({ color }) => <TabBarIcon name="code" color={color} />,
-          headerRight: () => (
-            <Pressable onPress={() => navigation.navigate('Modal')}>
-              {({ pressed }) => (
-                <FontAwesome
-                  name="info-circle"
-                  size={25}
-                  color="gray"
-                  style={[styles.headerRight, { opacity: pressed ? 0.5 : 1 }]}
-                />
-              )}
-            </Pressable>
-          ),
-        }}
-      />
-      <Tab.Screen
-        name="Two"
-        component={Two}
-        options={{
-          title: 'Tab Two',
-          tabBarIcon: ({ color }) => <TabBarIcon name="code" color={color} />,
-        }}
-      />
-    </Tab.Navigator>
-  );
+export default function TabLayout({
+    navigation,
+}: NativeStackScreenProps<RootStackParamList, 'TabNavigator'>) {
+    const colorScheme = useColorScheme();
+    const colors = Colors[colorScheme ?? 'light'];
+
+    return (
+        <Tab.Navigator
+            screenOptions={{
+                tabBarStyle: { backgroundColor: colors.accentBackground },
+                tabBarItemStyle: { backgroundColor: colors.accentBackground },
+                tabBarActiveTintColor: colors.tabIconSelected,
+            }}>
+            <Tab.Screen
+                name="Open"
+                component={OpenScreen}
+                options={{
+                    title: 'Open',
+                    tabBarIcon: ({ color }) => <TabBarIcon name="upload" color={color} />,
+                    headerShown: false,
+                }}
+            />
+            <Tab.Screen
+                name="Inspect"
+                component={InspectScreen}
+                options={{
+                    title: 'Inspector',
+                    tabBarIcon: ({ color }) => <TabBarIcon name="code" color={color} />,
+                    headerShown: false,
+                }}
+            />
+        </Tab.Navigator>
+    );
 }
 
 const styles = StyleSheet.create({
-  headerRight: {
-    marginRight: 15,
-  },
-  tabBarIcon: {
-    marginBottom: -3,
-  },
+    headerRight: {
+        marginRight: 15,
+    },
+    tabBarIcon: {
+        marginLeft: -5,
+        marginBottom: -3,
+    },
 });

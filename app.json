@@ -1,16 +1,15 @@
 {
   "expo": {
-    "name": "redact-app",
-    "slug": "redact-app",
-    "version": "1.0.0",
+    "name": "redact-composer-inspector",
+    "slug": "redact-composer-inspector",
+    "version": "0.1.0",
 
     "web": {
       "favicon": "./assets/favicon.png"
     },
 
-    "orientation": "portrait",
     "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
+    "userInterfaceStyle": "automatic",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
@@ -18,9 +17,11 @@
     },
     "assetBundlePatterns": ["**/*"],
     "ios": {
+      "userInterfaceStyle": "automatic",
       "supportsTablet": true
     },
     "android": {
+      "userInterfaceStyle": "automatic",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"

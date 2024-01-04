@@ -1,0 +1,405 @@
+{
+  "options": {
+    "ticks_per_beat": 480
+  },
+  "tree": {
+    "element": {
+      "CompositionRoot": null
+    },
+    "start": 0,
+    "end": 7680,
+    "seed": 17393937693119677822,
+    "rendered": true,
+    "children": [
+      {
+        "element": {
+          "Chord": "I"
+        },
+        "start": 0,
+        "end": 960,
+        "seed": 12363179419697045504,
+        "rendered": true
+      },
+      {
+        "element": {
+          "Chord": "IV"
+        },
+        "start": 960,
+        "end": 1920,
+        "seed": 5774871497953457587,
+        "rendered": true
+      },
+      {
+        "element": {
+          "Chord": "V"
+        },
+        "start": 1920,
+        "end": 2880,
+        "seed": 5224139266359379117,
+        "rendered": true
+      },
+      {
+        "element": {
+          "Chord": "I"
+        },
+        "start": 2880,
+        "end": 3840,
+        "seed": 11397469841477459472,
+        "rendered": true
+      },
+      {
+        "element": {
+          "Chord": "I"
+        },
+        "start": 3840,
+        "end": 4800,
+        "seed": 8252136401401292783,
+        "rendered": true
+      },
+      {
+        "element": {
+          "Chord": "IV"
+        },
+        "start": 4800,
+        "end": 5760,
+        "seed": 6165483944290485372,
+        "rendered": true
+      },
+      {
+        "element": {
+          "Chord": "V"
+        },
+        "start": 5760,
+        "end": 6720,
+        "seed": 9172308219386322040,
+        "rendered": true
+      },
+      {
+        "element": {
+          "Chord": "I"
+        },
+        "start": 6720,
+        "end": 7680,
+        "seed": 10980428154008924408,
+        "rendered": true
+      },
+      {
+        "element": {
+          "Part": [
+            {
+              "PlayChords": null
+            },
+            "Instrument"
+          ]
+        },
+        "start": 0,
+        "end": 7680,
+        "seed": 6256104785840585901,
+        "rendered": true,
+        "children": [
+          {
+            "element": {
+              "PlayNote": {
+                "note": 60,
+                "velocity": 95
+              }
+            },
+            "start": 0,
+            "end": 960,
+            "seed": 15638844320495601490,
+            "rendered": true
+          },
+          {
+            "element": {
+              "PlayNote": {
+                "note": 64,
+                "velocity": 91
+              }
+            },
+            "start": 0,
+            "end": 960,
+            "seed": 7936330478102023775,
+            "rendered": true
+          },
+          {
+            "element": {
+              "PlayNote": {
+                "note": 67,
+                "velocity": 92
+              }
+            },
+            "start": 0,
+            "end": 960,
+            "seed": 10320911685981751344,
+            "rendered": true
+          },
+          {
+            "element": {
+              "PlayNote": {
+                "note": 60,
+                "velocity": 100
+              }
+            },
+            "start": 960,
+            "end": 1920,
+            "seed": 5798829880953255909,
+            "rendered": true
+          },
+          {
+            "element": {
+              "PlayNote": {
+                "note": 65,
+                "velocity": 100
+              }
+            },
+            "start": 960,
+            "end": 1920,
+            "seed": 7801110803159285312,
+            "rendered": true
+          },
+          {
+            "element": {
+              "PlayNote": {
+                "note": 69,
+                "velocity": 94
+              }
+            },
+            "start": 960,
+            "end": 1920,
+            "seed": 3001840026229645908,
+            "rendered": true
+          },
+          {
+            "element": {
+              "PlayNote": {
+                "note": 62,
+                "velocity": 92
+              }
+            },
+            "start": 1920,
+            "end": 2880,
+            "seed": 16787450695753470030,
+            "rendered": true
+          },
+          {
+            "element": {
+              "PlayNote": {
+                "note": 67,
+                "velocity": 97
+              }
+            },
+            "start": 1920,
+            "end": 2880,
+            "seed": 6502288544590150586,
+            "rendered": true
+          },
+          {
+            "element": {
+              "PlayNote": {
+                "note": 71,
+                "velocity": 102
+              }
+            },
+            "start": 1920,
+            "end": 2880,
+            "seed": 5155854643391925837,
+            "rendered": true
+          },
+          {
+            "element": {
+              "PlayNote": {
+                "note": 60,
+                "velocity": 108
+              }
+            },
+            "start": 2880,
+            "end": 3840,
+            "seed": 7106590092348917623,
+            "rendered": true
+          },
+          {
+            "element": {
+              "PlayNote": {
+                "note": 64,
+                "velocity": 99
+              }
+            },
+            "start": 2880,
+            "end": 3840,
+            "seed": 3223725538137611859,
+            "rendered": true
+          },
+          {
+            "element": {
+              "PlayNote": {
+                "note": 67,
+                "velocity": 83
+              }
+            },
+            "start": 2880,
+            "end": 3840,
+            "seed": 15084532723388849282,
+            "rendered": true
+          },
+          {
+            "element": {
+              "PlayNote": {
+                "note": 60,
+                "velocity": 98
+              }
+            },
+            "start": 3840,
+            "end": 4800,
+            "seed": 210657710641928797,
+            "rendered": true
+          },
+          {
+            "element": {
+              "PlayNote": {
+                "note": 64,
+                "velocity": 82
+              }
+            },
+            "start": 3840,
+            "end": 4800,
+            "seed": 13065029163680052241,
+            "rendered": true
+          },
+          {
+            "element": {
+              "PlayNote": {
+                "note": 67,
+                "velocity": 90
+              }
+            },
+            "start": 3840,
+            "end": 4800,
+            "seed": 7723903622493185705,
+            "rendered": true
+          },
+          {
+            "element": {
+              "PlayNote": {
+                "note": 60,
+                "velocity": 102
+              }
+            },
+            "start": 4800,
+            "end": 5760,
+            "seed": 13768486227819167580,
+            "rendered": true
+          },
+          {
+            "element": {
+              "PlayNote": {
+                "note": 65,
+                "velocity": 88
+              }
+            },
+            "start": 4800,
+            "end": 5760,
+            "seed": 5008564142852734675,
+            "rendered": true
+          },
+          {
+            "element": {
+              "PlayNote": {
+                "note": 69,
+                "velocity": 91
+              }
+            },
+            "start": 4800,
+            "end": 5760,
+            "seed": 4398878727211214786,
+            "rendered": true
+          },
+          {
+            "element": {
+              "PlayNote": {
+                "note": 62,
+                "velocity": 88
+              }
+            },
+            "start": 5760,
+            "end": 6720,
+            "seed": 75476441418534755,
+            "rendered": true
+          },
+          {
+            "element": {
+              "PlayNote": {
+                "note": 67,
+                "velocity": 93
+              }
+            },
+            "start": 5760,
+            "end": 6720,
+            "seed": 11554915792464521950,
+            "rendered": true
+          },
+          {
+            "element": {
+              "PlayNote": {
+                "note": 71,
+                "velocity": 107
+              }
+            },
+            "start": 5760,
+            "end": 6720,
+            "seed": 11165073617277691043,
+            "rendered": true
+          },
+          {
+            "element": {
+              "PlayNote": {
+                "note": 60,
+                "velocity": 100
+              }
+            },
+            "start": 6720,
+            "end": 7680,
+            "seed": 11678918496853303944,
+            "rendered": true
+          },
+          {
+            "element": {
+              "PlayNote": {
+                "note": 64,
+                "velocity": 85
+              }
+            },
+            "start": 6720,
+            "end": 7680,
+            "seed": 15813751711766837217,
+            "rendered": true
+          },
+          {
+            "element": {
+              "PlayNote": {
+                "note": 67,
+                "velocity": 98
+              }
+            },
+            "start": 6720,
+            "end": 7680,
+            "seed": 1604024895900818012,
+            "rendered": true
+          }
+        ]
+      },
+      {
+        "element": {
+          "Key": {
+            "tonic": 0,
+            "scale": "Major",
+            "mode": "Ionian"
+          }
+        },
+        "start": 0,
+        "end": 7680,
+        "seed": 14889298026868624554,
+        "rendered": true
+      }
+    ]
+  }
+}
