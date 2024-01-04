@@ -1,6 +1,6 @@
 {
   "name": "redact-composer-inspector",
-  "homepage": "/redact-composer-inspector/",
+  "homepage": "/",
   "version": "1.0.0",
   "scripts": {
     "android": "expo start --android",
