@@ -36,7 +36,7 @@ export default function OpenScreen({
     };
 
     const chooseDocument = async () => {
-        const result = await DocumentPicker.getDocumentAsync({});
+        const result = await DocumentPicker.getDocumentAsync({ type: 'application/json' });
 
         if (result?.assets?.length) {
             resetErrors();
