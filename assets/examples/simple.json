@@ -8,79 +8,103 @@
     },
     "start": 0,
     "end": 7680,
-    "seed": 17393937693119677822,
+    "seed": 2821800691612650633,
     "rendered": true,
     "children": [
       {
         "element": {
-          "Chord": "I"
+          "Chord": {
+            "root": 0,
+            "shape": "maj"
+          }
         },
         "start": 0,
         "end": 960,
-        "seed": 12363179419697045504,
+        "seed": 1806114042539282243,
         "rendered": true
       },
       {
         "element": {
-          "Chord": "IV"
+          "Chord": {
+            "root": 5,
+            "shape": "maj"
+          }
         },
         "start": 960,
         "end": 1920,
-        "seed": 5774871497953457587,
+        "seed": 4241062627197921450,
         "rendered": true
       },
       {
         "element": {
-          "Chord": "V"
+          "Chord": {
+            "root": 7,
+            "shape": "maj"
+          }
         },
         "start": 1920,
         "end": 2880,
-        "seed": 5224139266359379117,
+        "seed": 11609769650323109093,
         "rendered": true
       },
       {
         "element": {
-          "Chord": "I"
+          "Chord": {
+            "root": 0,
+            "shape": "maj"
+          }
         },
         "start": 2880,
         "end": 3840,
-        "seed": 11397469841477459472,
+        "seed": 2411760375684816159,
         "rendered": true
       },
       {
         "element": {
-          "Chord": "I"
+          "Chord": {
+            "root": 0,
+            "shape": "maj"
+          }
         },
         "start": 3840,
         "end": 4800,
-        "seed": 8252136401401292783,
+        "seed": 9950406870830054802,
         "rendered": true
       },
       {
         "element": {
-          "Chord": "IV"
+          "Chord": {
+            "root": 5,
+            "shape": "maj"
+          }
         },
         "start": 4800,
         "end": 5760,
-        "seed": 6165483944290485372,
+        "seed": 15583293686691927846,
         "rendered": true
       },
       {
         "element": {
-          "Chord": "V"
+          "Chord": {
+            "root": 7,
+            "shape": "maj"
+          }
         },
         "start": 5760,
         "end": 6720,
-        "seed": 9172308219386322040,
+        "seed": 14390830368439690898,
         "rendered": true
       },
       {
         "element": {
-          "Chord": "I"
+          "Chord": {
+            "root": 0,
+            "shape": "maj"
+          }
         },
         "start": 6720,
         "end": 7680,
-        "seed": 10980428154008924408,
+        "seed": 10330205211542457281,
         "rendered": true
       },
       {
@@ -94,127 +118,19 @@
         },
         "start": 0,
         "end": 7680,
-        "seed": 6256104785840585901,
+        "seed": 10519911690330743495,
         "rendered": true,
         "children": [
           {
             "element": {
               "PlayNote": {
                 "note": 60,
-                "velocity": 95
+                "velocity": 109
               }
             },
             "start": 0,
             "end": 960,
-            "seed": 15638844320495601490,
-            "rendered": true
-          },
-          {
-            "element": {
-              "PlayNote": {
-                "note": 64,
-                "velocity": 91
-              }
-            },
-            "start": 0,
-            "end": 960,
-            "seed": 7936330478102023775,
-            "rendered": true
-          },
-          {
-            "element": {
-              "PlayNote": {
-                "note": 67,
-                "velocity": 92
-              }
-            },
-            "start": 0,
-            "end": 960,
-            "seed": 10320911685981751344,
-            "rendered": true
-          },
-          {
-            "element": {
-              "PlayNote": {
-                "note": 60,
-                "velocity": 100
-              }
-            },
-            "start": 960,
-            "end": 1920,
-            "seed": 5798829880953255909,
-            "rendered": true
-          },
-          {
-            "element": {
-              "PlayNote": {
-                "note": 65,
-                "velocity": 100
-              }
-            },
-            "start": 960,
-            "end": 1920,
-            "seed": 7801110803159285312,
-            "rendered": true
-          },
-          {
-            "element": {
-              "PlayNote": {
-                "note": 69,
-                "velocity": 94
-              }
-            },
-            "start": 960,
-            "end": 1920,
-            "seed": 3001840026229645908,
-            "rendered": true
-          },
-          {
-            "element": {
-              "PlayNote": {
-                "note": 62,
-                "velocity": 92
-              }
-            },
-            "start": 1920,
-            "end": 2880,
-            "seed": 16787450695753470030,
-            "rendered": true
-          },
-          {
-            "element": {
-              "PlayNote": {
-                "note": 67,
-                "velocity": 97
-              }
-            },
-            "start": 1920,
-            "end": 2880,
-            "seed": 6502288544590150586,
-            "rendered": true
-          },
-          {
-            "element": {
-              "PlayNote": {
-                "note": 71,
-                "velocity": 102
-              }
-            },
-            "start": 1920,
-            "end": 2880,
-            "seed": 5155854643391925837,
-            "rendered": true
-          },
-          {
-            "element": {
-              "PlayNote": {
-                "note": 60,
-                "velocity": 108
-              }
-            },
-            "start": 2880,
-            "end": 3840,
-            "seed": 7106590092348917623,
+            "seed": 4062580571790711247,
             "rendered": true
           },
           {
@@ -224,33 +140,141 @@
                 "velocity": 99
               }
             },
-            "start": 2880,
-            "end": 3840,
-            "seed": 3223725538137611859,
+            "start": 0,
+            "end": 960,
+            "seed": 16002022599617223317,
             "rendered": true
           },
           {
             "element": {
               "PlayNote": {
                 "note": 67,
-                "velocity": 83
+                "velocity": 88
               }
             },
-            "start": 2880,
-            "end": 3840,
-            "seed": 15084532723388849282,
+            "start": 0,
+            "end": 960,
+            "seed": 8053872874217438802,
             "rendered": true
           },
           {
             "element": {
               "PlayNote": {
                 "note": 60,
-                "velocity": 98
+                "velocity": 107
+              }
+            },
+            "start": 960,
+            "end": 1920,
+            "seed": 3994043829245007675,
+            "rendered": true
+          },
+          {
+            "element": {
+              "PlayNote": {
+                "note": 65,
+                "velocity": 99
+              }
+            },
+            "start": 960,
+            "end": 1920,
+            "seed": 5385135462188576425,
+            "rendered": true
+          },
+          {
+            "element": {
+              "PlayNote": {
+                "note": 69,
+                "velocity": 105
+              }
+            },
+            "start": 960,
+            "end": 1920,
+            "seed": 6201400852665566303,
+            "rendered": true
+          },
+          {
+            "element": {
+              "PlayNote": {
+                "note": 62,
+                "velocity": 91
+              }
+            },
+            "start": 1920,
+            "end": 2880,
+            "seed": 13768739991035254754,
+            "rendered": true
+          },
+          {
+            "element": {
+              "PlayNote": {
+                "note": 67,
+                "velocity": 109
+              }
+            },
+            "start": 1920,
+            "end": 2880,
+            "seed": 4552751245303712048,
+            "rendered": true
+          },
+          {
+            "element": {
+              "PlayNote": {
+                "note": 71,
+                "velocity": 101
+              }
+            },
+            "start": 1920,
+            "end": 2880,
+            "seed": 248412740194034695,
+            "rendered": true
+          },
+          {
+            "element": {
+              "PlayNote": {
+                "note": 60,
+                "velocity": 84
+              }
+            },
+            "start": 2880,
+            "end": 3840,
+            "seed": 3389053583260942210,
+            "rendered": true
+          },
+          {
+            "element": {
+              "PlayNote": {
+                "note": 64,
+                "velocity": 87
+              }
+            },
+            "start": 2880,
+            "end": 3840,
+            "seed": 10531215099957741322,
+            "rendered": true
+          },
+          {
+            "element": {
+              "PlayNote": {
+                "note": 67,
+                "velocity": 84
+              }
+            },
+            "start": 2880,
+            "end": 3840,
+            "seed": 1148326389745309053,
+            "rendered": true
+          },
+          {
+            "element": {
+              "PlayNote": {
+                "note": 60,
+                "velocity": 83
               }
             },
             "start": 3840,
             "end": 4800,
-            "seed": 210657710641928797,
+            "seed": 5893740091148526592,
             "rendered": true
           },
           {
@@ -262,103 +286,103 @@
             },
             "start": 3840,
             "end": 4800,
-            "seed": 13065029163680052241,
+            "seed": 17285463142842973284,
             "rendered": true
           },
           {
             "element": {
               "PlayNote": {
                 "note": 67,
-                "velocity": 90
+                "velocity": 85
               }
             },
             "start": 3840,
             "end": 4800,
-            "seed": 7723903622493185705,
+            "seed": 11725276929981658307,
             "rendered": true
           },
           {
             "element": {
               "PlayNote": {
                 "note": 60,
-                "velocity": 102
+                "velocity": 80
               }
             },
             "start": 4800,
             "end": 5760,
-            "seed": 13768486227819167580,
+            "seed": 3451759712131447893,
             "rendered": true
           },
           {
             "element": {
               "PlayNote": {
                 "note": 65,
-                "velocity": 88
+                "velocity": 83
               }
             },
             "start": 4800,
             "end": 5760,
-            "seed": 5008564142852734675,
+            "seed": 4680691857406063541,
             "rendered": true
           },
           {
             "element": {
               "PlayNote": {
                 "note": 69,
-                "velocity": 91
+                "velocity": 83
               }
             },
             "start": 4800,
             "end": 5760,
-            "seed": 4398878727211214786,
+            "seed": 1605905550234390135,
             "rendered": true
           },
           {
             "element": {
               "PlayNote": {
                 "note": 62,
-                "velocity": 88
+                "velocity": 87
               }
             },
             "start": 5760,
             "end": 6720,
-            "seed": 75476441418534755,
+            "seed": 1590951627221901784,
             "rendered": true
           },
           {
             "element": {
               "PlayNote": {
                 "note": 67,
-                "velocity": 93
+                "velocity": 97
               }
             },
             "start": 5760,
             "end": 6720,
-            "seed": 11554915792464521950,
+            "seed": 9741084604609028899,
             "rendered": true
           },
           {
             "element": {
               "PlayNote": {
                 "note": 71,
-                "velocity": 107
+                "velocity": 81
               }
             },
             "start": 5760,
             "end": 6720,
-            "seed": 11165073617277691043,
+            "seed": 4362030140540171167,
             "rendered": true
           },
           {
             "element": {
               "PlayNote": {
                 "note": 60,
-                "velocity": 100
+                "velocity": 85
               }
             },
             "start": 6720,
             "end": 7680,
-            "seed": 11678918496853303944,
+            "seed": 8026442070206307213,
             "rendered": true
           },
           {
@@ -370,35 +394,22 @@
             },
             "start": 6720,
             "end": 7680,
-            "seed": 15813751711766837217,
+            "seed": 2203820682322165748,
             "rendered": true
           },
           {
             "element": {
               "PlayNote": {
                 "note": 67,
-                "velocity": 98
+                "velocity": 84
               }
             },
             "start": 6720,
             "end": 7680,
-            "seed": 1604024895900818012,
+            "seed": 271754722876429681,
             "rendered": true
           }
         ]
-      },
-      {
-        "element": {
-          "Key": {
-            "tonic": 0,
-            "scale": "Major",
-            "mode": "Ionian"
-          }
-        },
-        "start": 0,
-        "end": 7680,
-        "seed": 14889298026868624554,
-        "rendered": true
       }
     ]
   }
